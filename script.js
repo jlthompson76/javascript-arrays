@@ -134,6 +134,11 @@ console.log(`#20`);
 // console.log(animalArray.isEmpty())
 // error message: animalArray.isEmpty is not a function;
 console.log(animalArray);
+if (animalArray.length > 0) {
+    console.log(`the array is not empty`);
+} else {
+    console.log(`the array is empty`);
+}
 
 // 21. Check to see if the sports array is empty.
 
@@ -141,6 +146,11 @@ console.log(`#21`);
 // console.log(sportArray.isEmpty());
 // error message: sportArray.isEmpty is not a function
 console.log(sportArray);
+if (sportArray.length > 0) {
+    console.log(`the array is not empty`);
+} else {
+    console.log(`the array is empty`);
+}
 
 // 22. Check to see if the number array is empty.
 
@@ -148,7 +158,11 @@ console.log(`#22`);
 // console.log(numberArray.isEmpty());
 // error message: numberArray.isEmpty is not a function
 console.log(numberArray);
-
+if (numberArray.length > 0) {
+    console.log(`the array is not empty`);
+} else {
+    console.log(`the array is empty`);
+}
 // 23. Loop through the animals array and print “I love” + element to the console each time.
 
 console.log(`#23`);
